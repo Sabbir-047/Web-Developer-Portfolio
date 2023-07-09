@@ -142,4 +142,10 @@ main{
     font-weight: bolder;
 }
 
+/* What id do styles */
+
+#what-i-do-description{
+    padding: 30px 140px 50px 139px;
+}
+
 /* skills styles */
