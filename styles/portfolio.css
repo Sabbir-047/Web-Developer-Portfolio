@@ -18,6 +18,12 @@
     padding: 18px 35px;
 }
 
+.btn-primary:hover{
+    box-shadow: 0px 5px 8px 2px rgb(46, 38, 38);
+    transition: .3s ease-in-out;
+    color: #181818;
+}
+
 .section-title {
     color: #181818;
     text-align: center;
@@ -106,6 +112,9 @@ nav a {
     margin-bottom: 30px;
 }
 
+.banner-content > button{
+    margin-right: 30px;
+}
 /* Main section styles */
 
 main {
@@ -166,6 +175,17 @@ main section {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
+.skill:hover {
+    box-shadow: 0px 5px 15px 2px rgb(44, 37, 37);
+    rotate: 2deg ;
+    transition: .5s ease-in-out;
+}
+
+.skill > img:hover{
+    rotate: 360deg;
+    transition: .5s ease-in-out;
+}
+
 .skill-title {
     color: #181818;
     font-size: 20px;
@@ -182,6 +202,7 @@ main section {
 .resume-container{
     display: flex;
     gap: 50px;
+    margin-top: 70px;
 }
 
 .resume-container hr{
@@ -230,9 +251,32 @@ main section {
     background-color: #FFF8F3;
     padding: 130px 230px;
     margin-top: 130px;
+    gap: 117px;
+}
+
+.footer-column{
+    width: 50%;
 }
 
 .footer-column-description{
     color: #474747;
     font-size: 16px;
 }
+
+.social-links a{
+    margin-right: 25px;
+}
+
+/* form */
+
+.contact-form input[type="text"], .contact-form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 100%;
+}
+
