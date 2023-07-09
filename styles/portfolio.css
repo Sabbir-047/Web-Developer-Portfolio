@@ -1,7 +1,7 @@
 /* Common shared style */
 * {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 .text-primary {
@@ -23,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 226px;
 }
 
 .nav-title {
@@ -46,4 +47,21 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header related style */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner>img {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
