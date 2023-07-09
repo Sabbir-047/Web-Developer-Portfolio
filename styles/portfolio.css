@@ -18,7 +18,7 @@
     padding: 18px 35px;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     box-shadow: 0px 5px 8px 2px rgb(46, 38, 38);
     transition: .3s ease-in-out;
     color: #181818;
@@ -112,9 +112,10 @@ nav a {
     margin-bottom: 30px;
 }
 
-.banner-content > button{
+.banner-content>button {
     margin-right: 30px;
 }
+
 /* Main section styles */
 
 main {
@@ -177,11 +178,11 @@ main section {
 
 .skill:hover {
     box-shadow: 0px 5px 15px 2px rgb(44, 37, 37);
-    rotate: 2deg ;
+    rotate: 2deg;
     transition: .5s ease-in-out;
 }
 
-.skill > img:hover{
+.skill>img:hover {
     rotate: 360deg;
     transition: .5s ease-in-out;
 }
@@ -199,46 +200,47 @@ main section {
 
 /* Resume styles */
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 50px;
     margin-top: 70px;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px 0px;
 }
 
 .resume-column-title {
-    color:#474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
     font-size: 25px;
     margin-bottom: 30px;
 }
 
-.resume-item-title{
+.resume-item-title {
     color: #474747;
     margin-bottom: 10px;
 }
 
-.resume-item-institute, .resume-item-description{
+.resume-item-institute,
+.resume-item-description {
     color: #757575;
 }
 
-.resume-item-institute{
+.resume-item-institute {
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 20px;
 }
 
-.resume-item-description{
+.resume-item-description {
     margin-top: 0px;
     margin-bottom: 30px;
     font-size: 16px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
@@ -246,7 +248,7 @@ main section {
 
 /* Footer Styles */
 
-.footer-container{
+.footer-container {
     display: flex;
     background-color: #FFF8F3;
     padding: 130px 230px;
@@ -254,22 +256,24 @@ main section {
     gap: 117px;
 }
 
-.footer-column{
+.footer-column {
     width: 50%;
 }
 
-.footer-column-description{
+.footer-column-description {
     color: #474747;
     font-size: 16px;
 }
 
-.social-links a{
+.social-links a {
     margin-right: 25px;
 }
 
 /* form */
 
-.contact-form input[type="text"], .contact-form input[type="email"], textarea{
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
@@ -279,4 +283,3 @@ main section {
     background-color: #FFF;
     width: 100%;
 }
-
